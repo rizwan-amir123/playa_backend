@@ -15,7 +15,4 @@
       "dest": "/app.py"
     }
   ],
-  "scripts": {
-    "build": "pip install -r requirements.txt"
-  }
 }
