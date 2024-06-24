@@ -25,6 +25,10 @@ def predict_result(predict):
 # Instantiating flask app
 app = Flask(__name__)
 
+@app.route('/', methods=['GET']) 
+def home(): 
+	return "API is running"
+
 # Prediction route
 @app.route('/predict', methods=['POST'])
 def predict_image_file():
